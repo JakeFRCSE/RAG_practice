@@ -13,7 +13,7 @@ class VectorDB:
     def connect(self):
         connection = psycopg2.connect(
             host="",
-            port=,
+            port=0000,
             database="",
             user="",
             password="",
